@@ -14,13 +14,12 @@ do {
     // nova tentativa - é preciso colocar para que não caia sempre em um laço de repetição
     var tentativaNumero = parseInt(prompt(`Tente adivinhar o numero de 1 a ${numeroMaximo}`));
 
-
     console.log(tentativaNumero);
     if(tentativaNumero == parseInt(numeroAleatorio)){
         alert('Parabéns você acertou');
     } else {
         
-        alert(`Errado o número correto não é ${tentativaNumero}`);
+        alert(`Errado o número correto não é ${tentativa_if}`);
 
         if(tentativaNumero < numeroAleatorio){
 
